@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+.intro {
+    min-height: 60vh;
+}
+
+
+.intro .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid green;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ed564a;
+
+}
+
+img {
+    filter: grayscale(100%);
+}
+
+.card-img-overlay {
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+.carousel-inner {
+    z-index: 2;
+}
